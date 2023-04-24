@@ -1,0 +1,15 @@
+{
+  "mongodb": {
+    "clientId": "<Replace with the clientId of the MongoDB Atlas Project apiKey",
+    "projectId": "<Project ID to monitor>",
+    "clusterNames": [
+      "<Display Name of Cluster 1 to monitor inside that project>",
+      "<Display Name of Cluster 2 to monitor inside that project>",
+      "<.....>"
+    ],
+    "eventType": []
+  },
+  "slack": {
+    "channel": "<Replace with the Slack channel name created for this purpose"
+  }
+}
